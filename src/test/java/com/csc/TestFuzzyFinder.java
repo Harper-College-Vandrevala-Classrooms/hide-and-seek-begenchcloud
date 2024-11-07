@@ -50,4 +50,17 @@ public class TestFuzzyFinder {
         }
     }
 
+    @Test
+    public void testFuzzyDescription() {
+        Fuzzy fuzzy = new Fuzzy("red");
+        assertEquals("red", fuzzy.description());
+    }
+
+    @Test
+    public void testPricklyDescription() {
+        Prickly prickly = new Prickly();
+        assertEquals("Pokey!", prickly.description());
+    }
+
+
 }

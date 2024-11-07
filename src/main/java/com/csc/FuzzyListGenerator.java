@@ -4,6 +4,7 @@ package com.csc;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 public class FuzzyListGenerator {
   int iterations;
@@ -49,4 +50,14 @@ public class FuzzyListGenerator {
     fuzzies.sort((f1, f2) -> f1.color.compareTo(f2.color));
     return fuzzies;
   };
+
+  public List<Feeling> generateFuzzyList() {
+    List<Feeling> fuzzies = new ArrayList<>();
+    fuzzies.add(new Fuzzy("red"));
+    fuzzies.add(new Fuzzy("blue"));
+    fuzzies.add(new Fuzzy("green"));
+    fuzzies.add(new Fuzzy("golden"));
+    fuzzies.add(new Prickly());
+    return fuzzies;
+  }
 }
