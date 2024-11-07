@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.csc.TestFuzzyFinder" tests="6" skipped="0" failures="0" errors="0" timestamp="2024-11-07T08:53:25" hostname="BENS-LAPTOP" time="0.024">
+  <properties/>
+  <testcase name="testFuzzyDescription()" classname="com.csc.TestFuzzyFinder" time="0.011"/>
+  <testcase name="testLinearSearchWithRandomizedFuzzies()" classname="com.csc.TestFuzzyFinder" time="0.002"/>
+  <testcase name="testLinearSearchWithSortedFuzzies()" classname="com.csc.TestFuzzyFinder" time="0.004"/>
+  <testcase name="testBinarySearchWithSortedFuzzies()" classname="com.csc.TestFuzzyFinder" time="0.002"/>
+  <testcase name="testBinarySearchWithRandomizedFuzzies()" classname="com.csc.TestFuzzyFinder" time="0.002"/>
+  <testcase name="testPricklyDescription()" classname="com.csc.TestFuzzyFinder" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
